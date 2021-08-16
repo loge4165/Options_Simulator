@@ -9,7 +9,7 @@ np.random.normal(0,1)
     # generates array of 10 rows, 5 col of normal dist values
 x = np.random.normal(0, 1, size=(10, 5))
 
-
+#
 class OptionSim():
 
     def __init__(self, SIMULATION, TYPE, OPTION, PRICE, STRIKE, RISKFREE, DAYS_EXPIRY, IMPLIED_VOL, DIVIDEND, PRICE_STEPS):
